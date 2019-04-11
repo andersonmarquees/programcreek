@@ -1,32 +1,5 @@
 """Add Two Numbers"""
 
-# cont = 0
-#
-# # Exercicio do uri carry add
-#
-#
-# def addTwoNumbers(l1, l2):
-#     global cont
-#     aux = 0
-#     l3 = []
-#     for i in range(len(l1)):
-#         if (l1[i] + l2[i]) >= 10:
-#             l3.append((l1[i] + l2[i]) % 10)
-#             aux += (l1[i] + l2[i]) // 10
-#             cont += 1
-#         else:
-#             l3.append(l1[i] + l2[i] + aux)
-#             aux = 0
-#     return l3
-#
-#
-# x = [int(i) for i in input()]
-# y = [int(i) for i in input()]
-# print(addTwoNumbers(x, y), cont)
-
-# #Output: 7 -> 0 -> 8
-
-
 # class Solution:
 #
 #     def addTwoNumbers(self, l1, l2):
@@ -136,23 +109,3 @@ if __name__ == '__main__':
     lista.insert(len(lista), 50)
     print(len(lista))
     print(lista[len(lista) - 1])
-
-
-# soma 2 numeros sem usar operadores
-# def calc(a, b):
-#
-#     lista = []
-#
-#     for i in range(a):
-#         lista.append(a)
-#     for j in range(b):
-#         lista.append(b)
-#     print(len(lista))
-#
-#
-# calc(3, 6)
-
-
-
-
-
